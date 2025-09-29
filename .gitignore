@@ -1,0 +1,14 @@
+# Python-specific files
+__pycache__/
+*.pyc
+venv/                  # Crucial: Ignore the virtual environment folder
+.env                   # Crucial: Ignore the file containing the SECRET_KEY
+
+# Database files
+*.sqlite
+*.db                   # Ignores our instance/app.db file
+instance/              # Ignore the folder where Flask stores the instance/app.db
+
+# Operating System files
+.DS_Store              # macOS
+Thumbs.db              # Windows
